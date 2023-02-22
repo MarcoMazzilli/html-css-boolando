@@ -206,7 +206,7 @@ button > i {
   cursor: pointer;
 }
 
-button:hover {
+button:active {
   color: lime;
 }
 
