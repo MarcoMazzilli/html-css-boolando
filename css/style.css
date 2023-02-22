@@ -122,6 +122,7 @@ border: 1px solid black;
   position: absolute;
   display: inline-block;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .product-img > img:last-child {
@@ -130,6 +131,7 @@ border: 1px solid black;
 
 .product-img:hover > img:last-child {
   display: block;
+
 }
 /* END PHOTO */
 
@@ -153,7 +155,28 @@ border: 1px solid black;
 /* END WISHLIST */
 
 /* START LABEL */
+.label {
+  position: absolute; 
+  bottom: 10px;
+  left: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
 
+.label .discount {
+  background-color: red;
+  padding: 5px 15px;
+  margin-right: 10px;
+
+}
+
+.label .sostenibility {
+background-color: rgb(0, 128, 0);
+padding: 5px 15px;
+margin-right: 10px;
+
+}
 /* END LABEL */
 
 /* ----CARD SYTLE---- */
