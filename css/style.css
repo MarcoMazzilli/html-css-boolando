@@ -122,12 +122,17 @@ position: relative;
 }
 
 .product-img > img:nth-of-type(2) {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
 }
 
 .product-img:hover > img:nth-of-type(2) {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: none;
 }
+
 /* END PHOTO */
 
 /* START WISHLIST */
@@ -141,6 +146,10 @@ position: relative;
   top: 20px;
   border-radius: 10px 0 0 10px;
   cursor: pointer;
+}
+
+.add-wishlist i {
+  transition: color 0.1s;
 }
 
 .add-wishlist:hover i {
