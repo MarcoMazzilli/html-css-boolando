@@ -27,18 +27,6 @@ width: 100%;
   justify-content: space-between;
 }
 
-.pd-x10 {
-padding: 0 10px;
-}
-
-.pd-x20 {
-  padding: 0 20px;
-}
-
-.pd-x30 {
-  padding: 0 30px;
-}
-
 /* GENERIC RULES */
 
 /* START HEADER STYLE */
@@ -69,14 +57,20 @@ header ul a {
   padding: 0 10px;
 }
 
+.gender-list a:hover {
+text-decoration: underline;
+color: rgb(124, 52, 0);
+}
+
 .header-logo {
   display: inline-block;
-  width: 200px
+  width: 200px;
+  margin-right: 130px;
 }
 
 .user-menu li {
   font-size: 1rem;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 /* END HEADER STYLE */
 /* START MAIN STYLE */
